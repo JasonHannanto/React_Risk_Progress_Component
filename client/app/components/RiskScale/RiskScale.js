@@ -32,6 +32,7 @@ class RiskScale extends Component {
           loading: false
         });
       })
+      .catch(err => { console.error(err) })
   }
   componentWillMount() {
     this.getData();
