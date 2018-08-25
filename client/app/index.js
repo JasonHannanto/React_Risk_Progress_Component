@@ -18,8 +18,7 @@ render((
   <Router>
     <App>
       <Switch>
-        <Route exact path="/" component={Dashboard} />
-        <Route component={NotFound} />
+        <Route path="/" component={Dashboard} />
       </Switch>
     </App>
   </Router>
